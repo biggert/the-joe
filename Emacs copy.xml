@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="alt C" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="W" />
+    <keyboard-shortcut first-keystroke="meta C" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift DELETE" />
+    <keyboard-shortcut first-keystroke="alt X" />
+    <keyboard-shortcut first-keystroke="meta X" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="alt P" />
+    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="meta V" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="H" />
+    <keyboard-shortcut first-keystroke="meta A" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift control MINUS" />
+    <keyboard-shortcut first-keystroke="control SLASH" />
+    <keyboard-shortcut first-keystroke="meta Z" />
+  </action>
+  <action id=":plugin.actions.paredit/backward">
+    <keyboard-shortcut first-keystroke="shift meta H" />
+  </action>
+  <action id=":plugin.actions.paredit/backward-down">
+    <keyboard-shortcut first-keystroke="control meta U" />
+  </action>
+  <action id=":plugin.actions.paredit/backward-up">
+    <keyboard-shortcut first-keystroke="shift meta U" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="control meta K" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift meta J" />
+  </action>
+  <action id=":plugin.actions.paredit/close-curly-and-newline">
+    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
+  </action>
+  <action id=":plugin.actions.paredit/close-paren-and-newline">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
+  </action>
+  <action id=":plugin.actions.paredit/close-square-and-newline">
+    <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
+  </action>
+  <action id=":plugin.actions.paredit/forward">
+    <keyboard-shortcut first-keystroke="shift meta L" />
+  </action>
+  <action id=":plugin.actions.paredit/forward-down">
+    <keyboard-shortcut first-keystroke="control meta I" />
+  </action>
+  <action id=":plugin.actions.paredit/forward-up">
+    <keyboard-shortcut first-keystroke="shift meta I" />
+  </action>
+  <action id=":plugin.actions.paredit/join">
+    <keyboard-shortcut first-keystroke="control meta S" />
+  </action>
+  <action id=":plugin.actions.paredit/kill">
+    <keyboard-shortcut first-keystroke="control alt K" />
+    <keyboard-shortcut first-keystroke="shift control K" />
+  </action>
+  <action id=":plugin.actions.paredit/raise">
+    <keyboard-shortcut first-keystroke="meta QUOTE" />
+    <keyboard-shortcut first-keystroke="alt R" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="control meta J" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="shift meta K" />
+    <keyboard-shortcut first-keystroke="shift control 0" />
+  </action>
+  <action id=":plugin.actions.paredit/splice">
+    <keyboard-shortcut first-keystroke="shift meta SEMICOLON" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-curly">
+    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-paren">
+    <keyboard-shortcut first-keystroke="shift meta 9" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-quotes">
+    <keyboard-shortcut first-keystroke="shift meta QUOTE" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-square">
+    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
+  </action>
+  <action id=":plugin.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control K" />
+  </action>
+  <action id=":plugin.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="meta N" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="ActivateREPLToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control F4" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="K" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="0" />
+    <keyboard-shortcut first-keystroke="meta F4" />
+    <keyboard-shortcut first-keystroke="meta W" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta C" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta X" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta V" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta A" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta Z" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="F12" />
+    <keyboard-shortcut first-keystroke="meta F12" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="control X" />
+    <keyboard-shortcut first-keystroke="meta RIGHT" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="meta LEFT" />
+  </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="meta E" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control N" />
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="N" />
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="control S" />
+    <keyboard-shortcut first-keystroke="meta S" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="B" />
+    <keyboard-shortcut first-keystroke="control TAB" />
+  </action>
+  <action id="ToggleBookmark0" />
+</keymap>
+
