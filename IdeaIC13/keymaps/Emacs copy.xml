@@ -48,6 +48,9 @@
   <action id=":plugin.actions.paredit/close-square-and-newline">
     <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
   </action>
+  <action id=":plugin.actions.paredit/copy-as-kill">
+    <keyboard-shortcut first-keystroke="control meta W" />
+  </action>
   <action id=":plugin.actions.paredit/forward">
     <keyboard-shortcut first-keystroke="shift meta L" />
   </action>
@@ -124,6 +127,9 @@
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta Z" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt F3" />
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift F3" />

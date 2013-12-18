@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Mac OS X 10.5+ Cursive Clojure" parent="Mac OS X 10.5+">
+  <action id=":plugin.actions.paredit/backward">
+    <keyboard-shortcut first-keystroke="shift meta H" />
+  </action>
+  <action id=":plugin.actions.paredit/backward-down">
+    <keyboard-shortcut first-keystroke="control meta U" />
+  </action>
+  <action id=":plugin.actions.paredit/backward-up">
+    <keyboard-shortcut first-keystroke="shift meta U" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="control meta K" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift meta J" />
+  </action>
+  <action id=":plugin.actions.paredit/close-curly-and-newline">
+    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
+  </action>
+  <action id=":plugin.actions.paredit/close-paren-and-newline">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
+  </action>
+  <action id=":plugin.actions.paredit/close-square-and-newline">
+    <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
+  </action>
+  <action id=":plugin.actions.paredit/copy-as-kill">
+    <keyboard-shortcut first-keystroke="shift control K" />
+  </action>
+  <action id=":plugin.actions.paredit/forward">
+    <keyboard-shortcut first-keystroke="shift meta L" />
+  </action>
+  <action id=":plugin.actions.paredit/forward-down">
+    <keyboard-shortcut first-keystroke="control meta I" />
+  </action>
+  <action id=":plugin.actions.paredit/forward-up">
+    <keyboard-shortcut first-keystroke="shift meta I" />
+  </action>
+  <action id=":plugin.actions.paredit/join">
+    <keyboard-shortcut first-keystroke="control meta S" />
+  </action>
+  <action id=":plugin.actions.paredit/kill">
+    <keyboard-shortcut first-keystroke="control K" />
+  </action>
+  <action id=":plugin.actions.paredit/raise">
+    <keyboard-shortcut first-keystroke="meta QUOTE" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="control meta J" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="shift meta K" />
+  </action>
+  <action id=":plugin.actions.paredit/splice">
+    <keyboard-shortcut first-keystroke="shift control SEMICOLON" />
+  </action>
+  <action id=":plugin.actions.paredit/split">
+    <keyboard-shortcut first-keystroke="meta S" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-curly">
+    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-paren">
+    <keyboard-shortcut first-keystroke="shift meta 9" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-quotes">
+    <keyboard-shortcut first-keystroke="shift meta QUOTE" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-square">
+    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
+  </action>
+  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateREPLToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+  </action>
+  <action id="EditorCutLineEnd" />
+  <action id="EditorToggleCase" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="Images.Editor.ToggleGrid" />
+  <action id="MethodHierarchy" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+  </action>
+  <action id="SaveAll" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+</keymap>
+
